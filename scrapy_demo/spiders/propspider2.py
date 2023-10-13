@@ -2,7 +2,7 @@ import scrapy
 from scrapy_demo.items import QuoteItem
 
 class PropspiderSpider(scrapy.Spider):
-    name = 'propspider2'
+    name = 'propspider'
     allowed_domains = ['quotes.toscrape.com']
 
     def start_requests(self):
