@@ -1,5 +1,6 @@
 import scrapy
 from scrapy_demo.items import QuoteItem
+from scrapy_demo.items import Caracteristicas
 
 class DemoSpider(scrapy.Spider):
     name = 'demo_spider'
