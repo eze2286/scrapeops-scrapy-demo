@@ -1,7 +1,7 @@
 import scrapy
 from scrapy_demo.items import QuoteItem
 
-class DemoSpider(scrapy.Spider):
+class PropspiderSpider(scrapy.Spider):
     name = 'propspider2'
     allowed_domains = ['quotes.toscrape.com']
 
